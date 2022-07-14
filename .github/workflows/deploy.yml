@@ -18,7 +18,7 @@ jobs:
       - run: docker build -t cygnetops/multi-worker-10-14 ./worker
  
       - run: docker push cygnetops/multi-client-10-14
-      - run: docker push cygnetops/multi-nginx-10-14
+      - run: docker push rwlee326/multi-nginx
       - run: docker push cygnetops/multi-server-10-14
       - run: docker push cygnetops/multi-worker-10-14
  
